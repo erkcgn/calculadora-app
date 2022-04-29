@@ -7,8 +7,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class FormularioComponent{
   
-  operandoA: number = 0;
-  operandoB: number = 0;
+  operandoA: number;
+  operandoB: number;
 
   @Output() resultadoSuma = new EventEmitter<number>();
 
